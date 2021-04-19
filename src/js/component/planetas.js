@@ -46,6 +46,7 @@ const CardPlanetas = props => {
 		</div>
 	);
 };
+
 CardPlanetas.propTypes = {
 	name: PropTypes.string,
 	diameter: PropTypes.string,
@@ -54,4 +55,5 @@ CardPlanetas.propTypes = {
 	id: PropTypes.number,
 	url: PropTypes.string
 };
+
 export default CardPlanetas;

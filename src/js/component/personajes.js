@@ -46,6 +46,7 @@ const Card = props => {
 		</div>
 	);
 };
+
 Card.propTypes = {
 	name: PropTypes.string,
 	gender: PropTypes.string,
@@ -54,4 +55,5 @@ Card.propTypes = {
 	id: PropTypes.number,
 	url: PropTypes.string
 };
+
 export default Card;
